@@ -6,5 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "7272:7272/tcp"
+      - "8860:80"
     restart: unless-stopped
